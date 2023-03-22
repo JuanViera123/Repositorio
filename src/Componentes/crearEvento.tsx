@@ -79,7 +79,19 @@ function crearEvento() {
           
 
                 <br></br>
-              
+                /* <div className="wrapper">  
+      <div className="filtro-fecha">
+        <div className="datePicker">
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+        <DesktopDatePicker
+              label="Fecha hasta"
+           
+             
+            />
+        </LocalizationProvider>
+        </div>
+      </div>
+      </div>*/
                 <br></br>
                 <TextField
                     label="Usuario Creador"
